@@ -1,0 +1,21 @@
+// FONT
+$font: 'Outfit',
+sans-serif;
+
+//COLORS
+$white: #fff;
+$bg-color: #d6e2f0;
+$p-color: #7b879d;
+$h-color: #1f3251;
+
+//TYPOGRAPHY-sizes
+$p-size: 0.95rem;
+$h1-size: 1.4rem;
+
+
+//MIXIN MEDIA QUERIES
+@mixin breakpoint {
+    @media (min-width: 1440px) {
+        @content;
+    }
+}
